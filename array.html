@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const a=[10,20,30,40];
+        // document.write(a);
+        // document.write(typeof(a))
+        // const a=[
+        //     10,
+        //     20,
+        //     30,
+        //     40];
+        // document.write(a);
+        // document.write(typeof(a))
+
+        // const array1=[];
+        // array1[0]="apple";
+        // array1[1]="orange";
+        // array1[2]="grape";
+        // document.write(array1);
+
+        // const a=new Array("apple","orange","grape");
+        // document.write(a);
+
+        // const a=["apple","orange","mango","grape","kiwi"];
+        // document.write(a.length);
+        // document.write("<br>");
+        // //accessing first array element 
+        // document.write(a[0]);
+        // document.write("<br>");
+        // //accesing last array element
+        // let b=a[a.length-1];
+        // document.write(b);
+        // document.write("<br>");
+
+
+        // const a=["apple","orange","mango","grape","kiwi"];
+        // let b=a.length;
+        // text="<ul>"
+        // for(let i=0;i<b;i++){
+        //     text=text+"<li>"+a[i]+"</li>";
+        // }
+        // text+="</ul>";
+        // document.write(text);
+
+        //push
+        // const a=["apple","orange","mango","grape","kiwi"];
+        // a.push("lemon","banana");
+        // document.write(a);
+
+        // const a=["apple","orange","mango","grape","kiwi"];
+        // a[6]="lemon";
+        // document.write(a);
+
+        // const a=["apple","orange","mango","grape","kiwi"];
+        // a[a.length]="banana";
+        // document.write(a);
+
+        //associative array
+        // const a=[];
+        // a["name"]="ammu";
+        // a["age"]="12";
+
+        // const a=new Array(12,45,67);
+        // const b=[56,89,23];
+        // document.write(a,"<br>");
+        // document.write(b,"<br>");
+
+        // const a=new Array(1);
+        // document.write(a);
+
+        // const a=new Array();
+        // a[0]=70;
+        // document.write(a);
+
+        // const a=[40];
+        // document.write(a);
+
+        // const a=["apple","orange","mango","grape","kiwi"];
+        // document.write(typeof(a));
+       
+        //first solution for checking array
+       // document.write(Array.isArray(a));
+
+        //second solution for checking array
+        // const a=["apple","orange","mango","grape","kiwi"];
+        // document.write(a instanceof Array)
+
+
+        //array methods
+        //push-add item at end
+        //pop-last item remove
+            // const a=["orange","apple","mango"];
+            // var b=a.pop();
+            // document.write(b)
+            // document.write(a)
+
+        //shift-first item remove
+            // const a=["orange","apple","mango"];
+            // a.shift();
+            // document.write(a)
+
+        //unshift-add at first position
+            // const a=["orange","apple","mango"];
+            // a.unshift("Kiwi",1);
+            // document.write(a)
+        
+        // toString()
+            // const a=[1,2,3,4,5];
+            // let b=a.toString();
+            // document.write(b);
+            // document.write(typeof(b));
+
+        // join()
+            // const a=["apple","orange","mango"];
+            // let b=a.join("*");
+            // document.write(b,"<br>");
+            // let b1=a.join("");
+            // document.write(b1);
+
+
+            // const a=["apple","orange","mango"];
+            // a[1]="kiwi";
+            // document.write(a)
+
+            //delete
+            // const a=["apple","orange","mango"];
+            // delete a[1];
+            // document.write(a)
+
+            //concat
+            // const a=["apple","banana","mango"];
+            // const b=["kiwi","orange"];
+            // const c=["lemon","grape"];
+            // const x=a.concat(b,c);
+            // document.write(x);
+            // const a=["apple","banana","mango"];
+            // const x=a.concat("grape","orange");
+            // document.write(x)
+
+
+            //splice-add new item to a array
+            // const a=["apple","banana","mango","orange","grapes"];
+            // // a.splice(2,0,"Kiwi","lemon")
+            // // a.splice(2,2,"Kiwi","lemon")
+            // a.splice(2,3,"Kiwi","lemon")
+            // document.write(a);
+
+            // const a=["apple","banana","mango","orange","grapes"];
+            // // a.splice(0,1);
+            // a.splice(2,1);
+            // document.write(a);
+
+            
+            //slice
+            // const a=["apple","banana","mango","orange","grapes"];
+            // // document.write(a.slice(1,3));
+            // document.write(a.slice(1));
+
+            //sort
+            // const a=["apple","banana","mango","orange","grapes"];
+            // document.write(a.sort()); //ascending
+            // const a=["apple","banana","mango","orange","grapes"];
+            // a.sort();
+            // a.reverse();
+            // document.write(a);
+    
+            //for nos consider with digit check only first digit of the no and sort it
+            const a=[40,100,1,5,25];
+            document.write(a.sort());
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

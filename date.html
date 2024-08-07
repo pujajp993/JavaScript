@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const d=new Date();
+        // // document.write(typeof(d));
+        // document.write(d);
+
+        // const d=new Date("2022-03-25");
+        // document.write(d)
+
+        // const d=new Date();
+        // // document.write(d);
+        // var y=d.getFullYear();
+        // document.write(y);
+
+        // const d=new Date("2021-03-25");
+        // var y=d.getFullYear();
+        // document.write(y)
+
+    //     const d=new Date();
+    //     document.write(d,"<br>")
+    // //     var y=d.getMonth();
+    // //     document.write(y)
+    //     var y=d.getDate();
+    //     document.write(y)
+        
+        // const d=new Date();
+        // var y=d.getHours();
+        // document.write(y);
+        // var y=d.getMinutes();
+        // document.write(y);
+        // var y=d.getSeconds();
+        // document.write(y);
+        // var y =d.getMilliseconds();
+        // document.write(y);
+        // var y=d.getDay();
+        // document.write(y);
+
+
+        // const months=["January","February","March",
+        // "April","May","June","July","August",
+        // "Sepetember","October","November","December"];
+
+        // const d=new Date("2021-03-25");
+        // let month=months[d.getMonth()];
+        // document.write(month);
+        
+        // const d=new Date();
+        // let month=months[d.getMonth()];
+        // document.write(month);
+
+        // const days=["Sunday","Monday","Tuesday",
+        // "wed","Thu","Fri","Sat"];
+        // const d=new Date();
+        // let day=days[d.getDay()];
+        // document.write(day);
+
+        // const d=new Date();
+        // var m=d.getTime();
+        // document.write(m);
+
+        // const d=Date.now();
+        // document.write(d);
+
+        // new Date();
+        // new Date(year,month);
+        // new Date(year,month,day);
+        // new Date(year,month,day,Hours);
+        // new Date(year,month,day,Hours,Minutes);
+        // new Date(year,month,day,Hours,Minutes,Seconds);
+        // new Date(year,month,day,Hours,Minutes,seconds,Milliseconds);
+
+
+        // const d=new Date("October 13 2014 11:13:00");
+        // document.write(d);
+
+        // const d=new Date("2022-03-25")
+        // document.write(d);
+
+        // const d=new Date(2022,13,21,10,33,30,0) //year,month,day,Hours,Minutes,seconds,Milliseconds
+        // document.write(d);
+        // const d=new Date(2022,11) 
+        // document.write(d);
+
+        // const d=new Date(99,11,21) ;
+        // document.write(d);
+
+        // const d=new Date();
+        // document.write(d,"<br>");
+        // // document.write(typeof(d));
+        // var a=d.toString();
+        // document.write(a,"<br>");
+        // // document.write(typeof(a,"<br>"));
+        // var b=d.toDateString();
+        // document.write(a,"<br>");
+        // // document.write(typeof(a,"<br>"));
+        // var u=d.toISOString();
+        // document.write(u,"<br>");
+        // // document.write(typeof(a,"<br>"));
+        // var ut=d.toUTCString();
+        // document.write(u);
+
+
+
+        // DATE INPUT METHOD
+        // const d=new Date(YYYY-MM-DD);
+        // const d=new Date("2015-03-11");
+        // document.write(d,"<br>");
+        // const d1=new Date("2015-03");
+        // document.write(d1);
+
+        // Short Dates
+        // const d=new Date("MM/DD/YYYY");
+        // const d=new Date("03/25/2014");
+        // document.write(d,"<br>")
+
+        // const d=new Date("2015-3-25");
+        // document.write(d,"<br>")
+
+
+        //Long Date
+
+        // const d=new Date("Mar 25 2015");
+        // const d1=new Date("25 Mar 2015");
+        // document.write(d);
+        // document.write(d1);
+
+
+        // const d=new Date();
+        // // d.setFullYear(2020);
+        // d.setFullYear(2020,13,3)
+        // document.write(d)
+
+        // const d=new Date();
+        // d.setMonth(10);
+        // document.write(d)
+
+
+        // const d=new Date();
+        // d.setDate(15)
+        // document.write(d)
+
+        // const d=new Date();
+        // d.setDate(d.getDate()+3);
+        // document.write(d)
+
+        // const d=new Date();
+        // d.setHours(10);
+        // document.write(d);
+
+        // const d=new Date();
+        // d.setMinutes(55);
+        // document.write(d);
+
+        // const d=new Date();
+        // d.setSeconds(55);
+        // document.write(d);
+
+
+
+        // months 0-11
+        // hours 1-23
+        // minutes 0-59
+        // seconds 0-59
+        // date 1-31
+
+
+        // document.write(Math.PI);
+        // Math.methods(Number);
+
+        //round
+        // document.write(Math.round(4.8));//5
+        // document.write(Math.round(4.5));//5
+        // document.write(Math.round(4.3));//4
+
+        //CEIL
+        // document.write(Math.ceil(5.9));//6
+        // document.write(Math.ceil(5.5));//6
+        // document.write(Math.ceil(5.1));//6
+        // document.write(Math.ceil(-5.9));//-5
+
+        //Floor
+        // document.write(Math.floor(5.9));//5
+        // document.write(Math.floor(5.4));//5
+        // document.write(Math.floor(-5.9));//-6
+
+        //TURNC
+        // document.write(Math.trunc(4.5));//4
+        // document.write(Math.trunc(4.2));//4
+        // document.write(Math.trunc(-4.2));//-4
+
+        //SIGN
+        // document.write(Math.sign(-4));//-1
+        // document.write(Math.sign(0));//0
+        // document.write(Math.sign(4));//1
+
+        //pow
+        // document.write(Math.pow(2,2));//4
+
+        //sqrt
+        // document.write(Math.sqrt(9));//3
+
+        //abs
+        // document.write(Math.abs(34));//34
+        // document.write(Math.abs(-34))//34
+
+        //min
+        // document.write(Math.min(23,45,11,55));//11
+
+        //max
+        // document.write(Math.max(23,45,11,55));//55
+
+        //random
+        // document.write(Math.random());
+
+        //sin,cos,tan
+        // document.write(Math.sin(3));
+        // document.write(Math.cos(3));
+        // document.write(Math.tan(3));
+
+        //log
+        // document.write(Math.log(3));
+
+        // document.write(Boolean(10<9));//false
+
+        // document.write(Boolean(100));//true
+        // document.write(Boolean(3.14));
+        // document.write(Boolean(-3.14));
+        // document.write(Boolean("hello"));
+        // document.write(Boolean(""))//false
+        // document.write(Boolean(0))//false
+
+        // var x;
+        // document.write(typeof(x));//undefined
+        // document.write(Boolean(x));//false
+
+        // var a=null;
+        // document.write(typeof(x));//undefined
+        // document.write(Boolean(a));//false
+
+        // var a=true;
+        // document.write(Boolean(a));//true
+
+        // var a=false;
+        // document.write(Boolean(a));//false
+
+
+        // var a=10/"hello";
+        // document.write(typeof(a));//number
+        // document.write(Boolean(a));//false
+
+        // var x=false;
+        // document.write(typeof(x));
+
+        // var x=new Boolean(false);
+        // document.write(typeof(x));//object
+
+        // for in
+        // for (key in Object){
+        //     block of code
+        // }
+
+        // const person={name:"ammu",age:23,place:"Kannur"};
+        // let text="";
+        // for(let i in person){
+        //     text=text+i;
+        // }
+        // document.write(text)
+
+        // const person={name:"ammu",age:23,place:"Kannur"};
+        // let text="";
+        // for(let i in person){
+        //     text=text+person[i];
+        // }
+        // document.write(text)
+
+
+
+        // const person=["ammu",23,"Kannur"]
+        // let text="";
+        // for(let i in person){
+        //     text=text+i;
+        // }
+        // document.write(text)
+        
+        // const person=["ammu",23,"Kannur"]
+        // let text="";
+        // for(let i in person){
+        //     text=text+person[i];
+        // }
+        // document.write(text)
+
+        //     const person=["ammu",23,"Kannur"];
+        //    let text="";
+        //    for(let i of person){
+        //     text=text+i;
+        //    }
+        //    document.write(text)
+
+
+        //arrow
+
+        // function myfunction(a,b){
+        //     return a*b
+        // }
+        // document.write(myfunction(6,2));
+
+
+        // let myfunction=(a,b)=>a*b;
+        // document.write(myfunction(6,2))
+
+
+        //before arrow
+        // hello=function(){
+        //     return "good morning";
+        // }
+        // document.write(hello())
+
+        //with arrow
+        // hello=()=>{
+        //     return "good morning";
+        // }
+        // document.write(hello())
+
+
+        // hello=(val1,val2)=>"hai"+val1+val2;
+        // document.write(hello(2,3));
+
+        // hello=val1=>"hai"+val1;
+        // document.write(hello(2));
+        
+
+        //set
+        // const letters=new Set(["a","b","a","c"]);
+        // document.write(letters);
+        // document.write(letters.size);
+        // document.write(typeof(letters))
+
+
+        // const letters=new Set(["a","b","a","c"]);
+        // letters.add("a");
+        // letters.add("b");
+        // letters.add("a");
+        // letters.add("c");
+        // document.write(letters.size)
+
+
+        // const letters=new Set();
+        // const a="apple";
+        // const b="mango";
+        // const c="banana";
+        // const d="mango";
+
+        // letters.add(a);
+        // letters.add(b);
+        // letters.add(c);
+        // letters.add(d);
+        // document.write(letters.size)
+
+
+        // const letters=new Set(["a","b","c","a"]); 
+        // letters.delete("b");
+        // document.write(letters.size);
+
+
+        // const letters=new Set(["a","b","c","a"]); 
+        // document.write(letters.has("b"));
+        // document.write(letters.values());
+
+
+        // const letters=new Set(["a","b","c","a"]); 
+        // let text="";
+        // for(const i of letters.values()){
+        //     text=text+i+"<br>";
+        // }
+        // document.write(text);
+
+
+        // const letters=new Set(["a","b","c","a"]); 
+        // let text="";
+        // letters.forEach(function(value){
+        //     text=text+value;
+        // })
+        // document.write(text);
+
+
+        // value pass as array
+        // const hello=new Map([
+        //     ["one",1],["two",2],
+        //     ["three",3],["four",4],["four",4]
+        // ])
+        // document.write(hello.size);
+        // document.write(hello.get("two"));
+
+
+            //const hello=new Map();
+            // hello.set("one",1);
+            // hello.set("two",2);
+            // hello.set("three",3);
+            // hello.set("four",4);
+            // document.write(hello.get("one"));
+
+
+            const hello=new Map();
+            hello.set("one",1);
+            hello.set("two",2);
+            hello.set("three",3);
+            hello.set("four",4);
+            // document.write(hello.size);
+            // hello.delete("two");
+            // document.write(hello.size);
+            // document.write(hello.has("three"));
+
+            // let text="";
+            // for(const x of hello.entries()){
+            //     text=text+x+"<br>";
+
+            // }
+            // document.write(text)
+
+            let text="";
+            hello.forEach(function(value,key){
+            text=text+key+"="+value+"<br>";
+        })
+        document.write(text);
+    </script>
+</body>
+</html>

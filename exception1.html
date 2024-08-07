@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>please input a no b/w 5 and 10</p>
+    <input type="text" id="demo"><br>
+    <button onclick="myfuction()">Click</button><br>
+    <p id="p1"></p>
+    <script>
+
+        function myfuction(){
+            const message=document.getElementById("p1")
+            // message.innerHTML="";
+            let x=document.getElementById("demo").value;
+            try{
+                if(x.trim()=="") throw "empty";
+                if(isNaN(x)) throw "not a no";
+                x=Number(x);
+                if (x<5) throw "too small";
+                if(x>10) throw "too big";
+            }
+            catch(err){
+                message.innerHTML="input is "+err;
+            }
+        }
+      
+        // try{
+        //     allert("hai")
+        // }
+        // catch(x){
+        //     document.write(x.message,"<br>")
+        // }
+        // finally{
+        //     document.write("always executed")
+        // }
+
+        // try{
+        //     alert("hai")
+        // }
+        // catch(x){
+        //     document.write(x.message,"<br>")
+        // }
+        // finally{
+        //     document.write("always executed")
+        // }
+
+        // try{
+        //     allert("hai")
+        //     throw new Error("this is new error") // if the 
+                    // first one have an error second one not checking
+        // }
+        // catch(x){
+        //     document.write(x.message,"<br>")
+        // }
+        // finally{
+        //     document.write("always executed")
+        // }
+
+        
+
+    </script>
+</body>
+</html>

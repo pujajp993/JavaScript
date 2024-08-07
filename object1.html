@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const person={firstname:"ammu",LastName:"K",age:50};
+        // // document.write(typeof(person));
+        // // document.write(person)
+        // document.write(person.firstname);
+        // document.write(person["LastName"]);
+
+        const person={firstname:"ammu",
+        lastname:"k",
+        age:23,
+        place:"kannur",
+        fullname:function(){
+            return this.firstname+" "+this.lastname;
+        }};
+        document.write(person.fullname());
+    </script>
+</body>
+</html>

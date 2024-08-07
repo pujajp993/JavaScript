@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="p1"></p>
+    <script>
+        // "use strict"
+        // x=10;    //var let const specify cheyyanam in case cots il use strict koduthal illel error varum
+        // document.write(x);
+
+        // function fun(a,a){
+        //     "use strict"    // duplicate parameter name note allow in strict
+        //     document.write(a,"<br>");
+        //     document.write(a+a)
+        // }
+        // fun(2,3)
+
+        // syntax for class creation
+        // class classname{
+        //     constructor(){
+
+        //     }
+            // method1(){
+
+            // }
+        // }
+        // const objname=new classname(arguments)
+
+
+        class Student{
+            constructor(name,age){
+                this.n=name;
+                this.a=age;
+            }
+            age(){
+                // const date=new Date();
+                // return date.getFullYear-this.a;
+                return this.a
+                return this.n
+            }
+        }
+        const obj1=new Student("ammu",15);
+        document.getElementById("p1").innerHTML="Student "+obj1.n+" age is"+obj1.age();
+    </script>
+</body>
+</html>
